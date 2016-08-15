@@ -14,7 +14,7 @@ namespace DatabaseDownloader
     {
         static void Main(string[] args)
         {
-            GetBinaryDataToFile(@"Data Source = 10.235.144.219; Initial Catalog = WIND; User ID = AppProd@2016#UATWeb; Password = Paa9BfHDm5pNB6d8SB2t69XTP8npbq5k", @"C:\TFS\General Electric Company\Latam\WiND\WiNDConsoleApplicationImporter\bin\Debug\ExcelSampleFiles\Recebimento_20160809- 2.xls");
+            GetBinaryDataToFile(@"Data Source = 10.235.1.1; Initial Catalog = WIND; User ID = myUserId; Password = myPassword", @"C:\Recebimento_20160809- 2.xls");
         }
 
         public static void GetBinaryDataToFile(string connectionString, string path)
